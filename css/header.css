@@ -1,11 +1,37 @@
-/*
-#sectionArriba{
-    display: grid;
+#headerArriba{
+    background-color:#E9ECEF;
+    height: 70px;
+    padding: 5px 10px;
 
-    grid-template-columns: 2fr;
+    display: flex;
+    flex-direction: row;
 }
 
-header{
+#Isotipo{
+    flex: 1 1 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#Navegacion{
     background-color: green;
+    flex: 1 1 auto;
+
+    display: flex;
+    align-items: center;
+    /*justify-content: center;*/
 }
-*/
+
+#Navegacion ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#Navegacion li{
+    background-color: greenyellow;
+    flex: 1 1 auto;
+}
