@@ -18,8 +18,10 @@
     align-items: center;
 }
 
-#Isotipo{
-    padding-left: 25px;
+#Isotipo img{
+    padding-left: 15px;
+    width: 280px;
+    height: 40px;
 }
 
 #Navegacion ul{
@@ -39,7 +41,9 @@
 #headerAbajo{
     height: 500px;
     padding: 25px 40px;
-    background-image: url("../imagenes/Inicio.jpg");
+    text-transform: capitalize;
+    background-size: cover;
+    background-position: center;
 
     display: flex;
     flex-flow: column nowrap;
