@@ -6,6 +6,11 @@
     display: flex;
 }
 
+#headerArriba a{
+    color: black;
+    text-decoration: none;
+}
+
 #Isotipo, #Navegacion{
     flex: 1 1 auto;
 
@@ -34,7 +39,7 @@
 #headerAbajo{
     height: 500px;
     padding: 25px 40px;
-    background-color: green;
+    background-image: url("../imagenes/Inicio.jpg");
 
     display: flex;
     flex-flow: column nowrap;
