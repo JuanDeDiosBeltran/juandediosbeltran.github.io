@@ -1,15 +1,37 @@
 main{
+    background-color:#E9ECEF;
+    
     display: flex;
     flex-flow: column nowrap;
 }
 
 main section{
     flex: 1 1 auto;
+    height: 400px;
+    padding: 10px 30px;
 
     display: flex;
+}
+
+#mainInicio, #mainBlog{
+    flex-flow: row-reverse nowrap;
+
+}
+
+#mainPortafolio{
     flex-flow: row nowrap;
+
 }
 
 main section div{
     flex: 1 1 50%;
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto h2{
+    padding-bottom: 20px;
 }
