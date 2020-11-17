@@ -11,7 +11,11 @@
     text-decoration: none;
 }
 
-#Isotipo, #Navegacion{
+#headerArriba a:hover{
+    text-decoration: underline;
+}
+
+#headerArriba div{
     flex: 1 1 auto;
 
     display: flex;
@@ -37,6 +41,8 @@
     display: flex;
     justify-content: center;
 }
+
+/**/
 
 #headerAbajo{
     height: 500px;

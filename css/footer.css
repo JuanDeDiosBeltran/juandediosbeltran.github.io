@@ -1,0 +1,68 @@
+#footerArriba{
+    background-color: #343A40;
+    color: #E9ECEF;
+    height: 400px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerArriba h2{
+    font-size: 40px;
+}
+
+#footerArriba p{
+    padding-bottom: 30px;
+}
+
+#footerArriba div{
+    height: 100px;
+    width: 40%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/**/
+
+#footerAbajo{
+    background-color: #000000;
+    color: #E9ECEF;
+    height: 70px;
+
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#footerAbajo div{
+    flex: 1 1 auto;
+    align-self: center;
+}
+
+#footerAbajo div:first-child{
+    padding-left: 30px;
+}
+
+#footerAbajo a{
+    color: #E9ECEF;
+    text-decoration: none;
+}
+
+#footerAbajo a:hover{
+    text-decoration: underline;
+}
+
+#footerAbajo ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#footerAbajo li{
+    flex: 1 1 auto;
+}
