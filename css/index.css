@@ -33,5 +33,9 @@ main section div{
 }
 
 .texto h2{
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.texto p{
+    padding: 5px 0px;
 }
