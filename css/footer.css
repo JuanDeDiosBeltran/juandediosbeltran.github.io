@@ -9,6 +9,11 @@
     align-items: center;
 }
 
+#footerArriba a{
+    color: #E9ECEF;
+    text-decoration: none;
+}
+
 #footerArriba h2{
     font-size: 40px;
 }

@@ -32,6 +32,11 @@ main section div{
     justify-content: center;
 }
 
+main img{
+    height: 280px;
+    width: 280px;
+}
+
 .texto h2{
     padding-bottom: 15px;
 }
