@@ -19,6 +19,8 @@ main section{
 }
 
 #mainPortafolio{
+    padding-left: 50px;
+
     flex-flow: row nowrap;
 
 }
@@ -43,4 +45,19 @@ main img{
 
 .texto p{
     padding: 5px 0px;
+}
+
+@media only screen and (max-width: 800px){
+
+#mainInicio, #mainPortafolio, #mainBlog{
+    height: 700px;
+
+    flex-flow: column nowrap;
+
+}
+
+#mainPortafolio{
+    padding: 10px 30px;
+}
+
 }
