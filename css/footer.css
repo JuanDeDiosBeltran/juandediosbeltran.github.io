@@ -1,9 +1,11 @@
-footer a{
+#footerArriba a, 
+#footerAbajo a{
     color: #E9ECEF;
     text-decoration: none;
 }
 
-footer a:hover, footer a:active{
+#footerArriba a:hover, #footerArriba a:active,
+#footerAbajo a:hover, #footerAbajo a:active{
     text-decoration: underline;
 }
 
