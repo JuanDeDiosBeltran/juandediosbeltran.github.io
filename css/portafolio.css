@@ -1,0 +1,23 @@
+main{
+    background-color:#E9ECEF;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main section{
+    padding: 30px 50px;
+}
+
+main section h2{
+    padding-bottom: 15px;
+}
+
+main section p{
+    padding: 5px 0px;
+}
+
+main section p img{
+    height: 400px;
+    width: 400px;
+}
