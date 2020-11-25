@@ -1,0 +1,44 @@
+main{
+    background-color:#E9ECEF;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+main section{
+    padding-top: 30px;
+    padding-left:  50px;
+    padding-right: 50px;
+}
+
+main section:last-child{
+    padding-bottom: 30px;
+}
+
+main section h2{
+    padding-bottom: 15px;
+}
+
+main section p{
+    padding: 5px 0px;
+}
+
+#catalogo{
+    display: flex;
+
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+#catalogo div{
+    background-color: chocolate;
+    height: 100px;
+    width: 100px;
+
+    flex: 1 1 auto;
+}
+
+#nav{
+    background-color: cyan;
+    height: 50px;
+}
