@@ -6,7 +6,13 @@ main{
 }
 
 main section{
-    padding: 30px 50px;
+    padding-top: 30px;
+    padding-left:  50px;
+    padding-right: 50px;
+}
+
+main section:last-child{
+    padding-bottom: 30px;
 }
 
 main section h2{
@@ -17,7 +23,41 @@ main section p{
     padding: 5px 0px;
 }
 
+#Meme{
+    padding: 20px;
+
+    display: flex;
+    justify-content: center;
+}
+
 main section p img{
     height: 400px;
     width: 400px;
+}
+
+@media only screen and (max-width: 500px){
+
+main section p img{
+    height: 300px;
+    width: 300px;
+}
+
+}
+
+@media only screen and (max-width: 400px){
+    
+main section p img{
+    height: 250px;
+    width: 250px;
+}
+
+}
+
+@media only screen and (max-width: 350px){
+    
+main section p img{
+    height: 200px;
+    width: 200px;
+}
+    
 }
