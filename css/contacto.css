@@ -1,0 +1,18 @@
+main{
+    background-color:#E9ECEF;
+    height: 500px;
+    /*
+    display: flex;
+    flex-flow: column nowrap;
+    */
+}
+
+
+
+@media only screen and (max-width: 440px){
+
+#headerAbajo{
+    color: #ffffff !important;
+}
+
+}
