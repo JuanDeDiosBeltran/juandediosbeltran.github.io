@@ -36,14 +36,31 @@
             <p><h3>¿Te gustaría trabajar conmigo? ¿Quieres saber mi opinión de algún tema para el blog? ¿Crees que algo puede mejorar del sitio web? Hazmelo saber, por favor.</h3></p>
         </section>
         <section id="formulario">
-            <form action="enviar.php" method="post">
-                <h4>*Favor de llenar todos los campos</h4>
-                <div><input type="text" name="Nombre" placeholder="Nombre" required></div>
-                <div><input type="text" name="Apellido" placeholder="Apellido" required></div>
-                <div><input type="text" name="Correo" placeholder="Correo" required></div>
-                <div><input type="text" name="Asunto" placeholder="Asunto" required></div>
-                <div><textarea name="Mensaje" placeholder="Escriba aqui su mensaje" required></textarea></div>
-                <div id="divBoton"><input type="submit" value="Enviar" id="Boton"></div>
+            <h4>*Favor de llenar todos los campos</h4>
+            <form action="https://formspree.io/f/xbjpzoeg" method="POST">
+                <div class="input">
+                    <p><h3>Nombre:</h3></p>
+                    <input type="text" name="Nombre" placeholder="Nombre" required>
+                </div><!---
+                <div>
+                    <p><h3>Apellido:</h3></p>
+                    <input type="text" name="Apellido" placeholder="Apellido" required>
+                </div>-->
+                <div class="input">
+                    <p><h3>Correo:</h3></p>
+                    <input type="text" name="Correo" placeholder="Correo" required>
+                </div><!---
+                <div>
+                    <p><h3>Asunto:</h3></p>
+                    <input type="text" name="Asunto" placeholder="Asunto" required>
+                </div>-->
+                <div id="divTextarea">
+                    <p><h3>Mensaje:</h3></p>
+                    <textarea name="Mensaje" placeholder="Escriba aqui su mensaje" required></textarea>
+                </div>
+                <div id="divBoton">
+                    <input type="submit" value="Enviar" id="Boton">
+                </div>
             </form>
         </section>
     </main>
