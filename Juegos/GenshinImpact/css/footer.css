@@ -1,0 +1,185 @@
+#footerArriba a, 
+#footerAbajo a{
+    color: #E9ECEF;
+    text-decoration: none;
+}
+
+#footerArriba a:hover, #footerArriba a:active,
+#footerAbajo a:hover, #footerAbajo a:active{
+    text-decoration: underline;
+}
+
+/**/
+
+#footerArriba{
+    background-color: #343A40;
+    color: #E9ECEF;
+    height: 400px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#footerArriba h2{
+    font-size: 40px;
+}
+
+#footerArriba p{
+    padding-bottom: 30px;
+}
+
+#footerArriba div{
+    height: 100px;
+    width: 40%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/**/
+
+#footerAbajo{
+    background-color: #000000;
+    color: #E9ECEF;
+    height: 70px;
+
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#footerAbajo div{
+    flex: 1 1 auto;
+    align-self: center;
+}
+
+#footerAbajo div:first-child{
+    padding-left: 30px;
+}
+
+#footerAbajo ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+#footerAbajo li{
+    flex: 1 1 auto;
+}
+
+@media only screen and (max-width: 992px){
+
+#footerAbajo{
+    height: 150px;
+
+    flex-flow: column nowrap;
+}
+
+#footerAbajo div{
+    width: 100%;
+}
+
+#footerAbajo div:first-child{
+    padding-left: 0px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerAbajo div:last-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footerAbajo ul{
+    width: 100%;
+}
+
+#footerAbajo li{
+    padding: 0px 15px;
+
+    display: flex;
+    justify-content: center;
+}
+
+}
+
+@media only screen and (max-width: 800px){
+
+#footerArriba{
+    height: 600px;
+}
+
+#footerArriba p{
+    flex: 1 1 5%;
+}
+
+#footerArriba div{
+    flex: 1 1 90%;
+
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+#footerArriba div a{
+    padding: 25px;
+}
+
+}
+
+@media only screen and (max-width: 600px){
+
+#footerArriba{
+    height: 680px;
+}
+
+#footerArriba h3{
+    padding: 25px;
+}
+
+/**/
+
+#footerAbajo{
+    height: 180px;
+}
+
+#footerAbajo h3{
+    padding: 0px 25px;
+}
+
+#footerAbajo ul{
+    flex-flow: row wrap;
+}
+
+#footerAbajo li{
+    height: 50px;
+    min-width: 180px;
+}
+
+}
+
+@media only screen and (max-width: 500px){
+
+#footerAbajo{
+    height: 210px;
+}
+
+#footerAbajo li{
+    min-width: 130px;
+}
+
+}
+
+@media only screen and (max-width: 337px){
+
+#footerAbajo{
+    height: 350px;
+}
+
+}
