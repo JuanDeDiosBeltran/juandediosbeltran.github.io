@@ -30,6 +30,15 @@ main section p{
     gap: 15px;
 }
 
+#catalogo a{
+    color: black;
+    text-decoration: none;
+}
+
+#catalogo a:hover{
+    text-decoration: underline;
+}
+
 #catalogo .juego{
     height: 250px;
     border: 6px solid #000000;
