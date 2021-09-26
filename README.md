@@ -9,4 +9,4 @@ Trataré de tenerlo actualizado, cada que pueda voy a subir algo de contenido.
 Pueden contactarme por mis redes sociales o enviarme un mensaje por correo.
 
 
-Gracias.
+Muchas gracias.
