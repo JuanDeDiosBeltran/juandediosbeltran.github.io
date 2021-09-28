@@ -23,6 +23,15 @@ main section p{
     padding: 5px 0px;
 }
 
+#Top{
+    padding-left: 40px;
+}
+
+#Top li{
+    padding: 10px;
+}
+
+/*
 #catalogo{
     display: grid;
 
@@ -91,17 +100,18 @@ main section p{
     display: flex;
     justify-content: center;
 }
+*/
 
 @media only screen and (max-width: 992px){
-
+/*
 #catalogo{
     grid-template-columns: repeat(2, 1fr);
 }
-
+*/
 }
 
 @media only screen and (max-width: 600px){
-
+/*
 #catalogo{
     grid-template-columns: repeat(1, 1fr);
 }
@@ -117,5 +127,5 @@ main section p{
     order: -1;
     flex: 1 1 100%;
 }
-
+*/
 }
