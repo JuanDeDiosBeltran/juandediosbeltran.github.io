@@ -1,12 +1,7 @@
 # juandediosbeltran.github.io
-Mi sitio web: https://juandediosbeltran.github.io/
 
+Hoy, 23 de Enero de 2024, he desabilitado este sitio web por tiempo indefinido, en su lugar he creado un nuevo sitio web, puedes dar clic al siguiente link para acceder a el:
 
-He creado este sitio Web para aquellas personas que buscan mas información sobre mi.
+https://www.juandediosbeltran.com/
 
-Trataré de tenerlo actualizado, cada que pueda voy a subir algo de contenido.
-
-Pueden contactarme por mis redes sociales o enviarme un mensaje por correo.
-
-
-Muchas gracias.
+Gracias.
